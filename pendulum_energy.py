@@ -1,3 +1,9 @@
+'''
+3/18 STATUS:
+The swing-up method works pretty well, with PID taking over within 45 degrees of the target point
+I need to modify the ODE because it doesn't include the flywheel's moment of inertia in the pendulum's equation
+Also, it would be cool to plot potential energy against kinetic energy and see what the 2D contours look like
+'''
 #!/usr/local/bin/python3
 
 import numpy as np
